@@ -19,7 +19,7 @@ private static Logger LOGGER = LoggerFactory.getLogger(OrderConsumer.class);
         groupId= "${spring.kafka.consumer.group-id}")
 public void consume(OrderEvent orderEvent){
 
-    LOGGER.info(String.format("Order even received on stock service => %s",orderEvent.toString()));
+    LOGGER.info(String.format("Order event received on stock service => %s",orderEvent.toString()));
 
 }
 }
