@@ -12,5 +12,11 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+    <modules>
+        <module>base-domains</module>
+        <module>email-service</module>
+        <module>order-service</module>
+        <module>stock-service</module>
+    </modules>
 
 </project>
